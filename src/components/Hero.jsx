@@ -1,3 +1,4 @@
+import HeroImage from '../assets/system.jpeg';
 export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col md:flex-row items-center justify-center px-10 pt-32">
@@ -28,7 +29,7 @@ export default function Hero() {
 
       <div className="flex-1 flex justify-center mt-10 md:mt-0">
         <img
-          src="/src/assets/system.jpeg"
+          src={HeroImage}
           className="w-72 md:w-96 rounded-2xl shadow-lg border border-accent"
           alt="Profile"
         />

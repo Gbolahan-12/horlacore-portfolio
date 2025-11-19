@@ -1,4 +1,5 @@
 import React from "react";
+import CertificateImg from "../assets/frontend-certificate.jpg";
 import { Award } from "lucide-react";
 
 export default function Achievements() {
@@ -7,7 +8,7 @@ export default function Achievements() {
       title: "Frontend Web Development Certificate",
       issuer: "FreeCodeCamp",
       year: "2025",
-      image: "/src/assets/frontend-certificate.jpg",
+      image: CertificateImg,
     },
   ];
 

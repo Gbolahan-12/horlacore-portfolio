@@ -1,25 +1,28 @@
 import React from "react";
+import TradarPics from "../assets/e-commerce.png";
+import HavestaPics from "../assets/havesta-welcome.png";
+import SchoolPics from "../assets/school.png";
 
 export default function Projects() {
   const projects = [
     {
       title: "E-Commerce Website",
       description: "A full online shopping platform built with React, Laravel API, and TailwindCSS.",
-      image: "/src/assets/e-commerce.png",
+      image: TradarPics,
       demo: "https://tradar.ng/feature.html",
       github: "https://github.com/Gbolahan-12/Tradar-Welcome"
     },
     {
       title: "E-Commerce Selliing Raw Foods",
       description: "A clean, animated portfolio built with React and TailwindCSS.",
-      image: "/src/assets/havesta-welcome.png",
+      image: HavestaPics,
       demo: "https://havesta.com/",
       github: "#"
     },
     {
       title: "School Management System",
       description: "A complete system with authentication, roles, courses, and results.",
-      image: "/src/assets/school.png",
+      image: SchoolPics,
       demo: "https://fars.com.ng/",
       github: "https://github.com/Gbolahan-12/FarsTech-Project"
     },

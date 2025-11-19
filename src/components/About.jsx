@@ -1,4 +1,5 @@
 import React from "react";
+import ProfilePic from "../assets/me.jpg";
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
         
         <div className="flex justify-center">
           <img
-            src="/src/assets/me.jpg" 
+            src={ProfilePic} 
             alt="Profile"
             className="w-64 h-64 object-cover rounded-xl shadow-lg border-2 border-accent"
           />
