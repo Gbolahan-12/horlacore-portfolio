@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme{
+  --color-dark: #0F0F0F;
+  --color-accent: #FF6B00;
+  --color-soft: #F2F2F2;
+
+}
+.dark {
+  --color-dark: #F2F2F2;
+  --color-accent: #FF6B00;
+  --color-soft: #0F0F0F;
+}
+.light {
+  --color-dark: #FFFFFF;
+  --color-accent: #FF6B00;
+  --color-soft: #0F0F0F;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--color-dark);
+  color: var(--color-soft);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
