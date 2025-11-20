@@ -2,6 +2,7 @@ import React from "react";
 import TradarPics from "../assets/e-commerce.png";
 import HavestaPics from "../assets/havesta-welcome.png";
 import SchoolPics from "../assets/school.png";
+import Reveal from "./Reveal";
 
 export default function Projects() {
   const projects = [
@@ -29,6 +30,7 @@ export default function Projects() {
   ];
 
   return (
+    <Reveal delay={0.3}>
     <section id="projects" className="bg-dark text-soft py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto">
         
@@ -79,5 +81,6 @@ export default function Projects() {
 
       </div>
     </section>
+    </Reveal>
   );
 }

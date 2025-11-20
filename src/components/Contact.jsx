@@ -1,9 +1,11 @@
 import React from "react";
 import { Mail, MapPin, Github, Linkedin, Instagram, Telescope, Phone, Twitter } from "lucide-react";
 import SendMeMessage from "./SendMeMessage";
+import Reveal from "./Reveal";
 
 export default function Contact() {
   return (
+    <Reveal>
     <section
       id="contact"
       className="py-20 bg-dark text-soft px-6 md:px-12 lg:px-24"
@@ -80,5 +82,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    </Reveal>
   );
 }

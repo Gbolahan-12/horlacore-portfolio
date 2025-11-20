@@ -1,4 +1,5 @@
 import React from "react";
+import Reveal from "./Reveal";
 
 export default function Experience() {
   const timeline = [
@@ -35,6 +36,7 @@ export default function Experience() {
   ];
 
   return (
+    <Reveal>
     <section id="experience" className="bg-dark text-soft py-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-4xl mx-auto">
 
@@ -65,5 +67,6 @@ export default function Experience() {
 
       </div>
     </section>
+    </Reveal>
   );
 }

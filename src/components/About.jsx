@@ -1,8 +1,10 @@
 import React from "react";
 import ProfilePic from "../assets/me.jpg";
+import Reveal from "./Reveal";
 
 export default function About() {
   return (
+    <Reveal delay={0.2}>
     <section
       id="about"
       className="bg-dark text-soft py-16 px-6 md:px-12 lg:px-24"
@@ -50,5 +52,6 @@ export default function About() {
         </div>
       </div>
     </section>
+    </Reveal>
   );
 }

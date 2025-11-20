@@ -1,5 +1,6 @@
 import { ChartArea, ChartBarIcon, Database, EarthIcon, Laptop, SettingsIcon, WholeWordIcon } from "lucide-react";
 import React from "react";
+import Reveal from "./Reveal";
 
 export default function Services() {
   const services = [
@@ -36,6 +37,7 @@ export default function Services() {
   ];
 
   return (
+    <Reveal>
     <section id="services" className="bg-dark text-soft py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto">
 
@@ -63,5 +65,6 @@ export default function Services() {
 
       </div>
     </section>
+    </Reveal>
   );
 }

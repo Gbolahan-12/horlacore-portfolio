@@ -1,6 +1,8 @@
 import HeroImage from '../assets/system.jpeg';
+import Reveal from './Reveal';
 export default function Hero() {
   return (
+    <Reveal>
     <section className="min-h-screen flex flex-col md:flex-row items-center justify-center px-10 pt-32">
       <div className="flex-1 space-y-6">
         <h1 className="text-5xl md:text-5xl font-extrabold leading-tight">
@@ -35,5 +37,6 @@ export default function Hero() {
         />
       </div>
     </section>
+    </Reveal>
   );
 }

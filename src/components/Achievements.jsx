@@ -1,6 +1,7 @@
 import React from "react";
 import CertificateImg from "../assets/frontend-certificate.jpg";
 import { Award } from "lucide-react";
+import Reveal from "./Reveal";
 
 export default function Achievements() {
   const certificates = [
@@ -13,6 +14,7 @@ export default function Achievements() {
   ];
 
   return (
+    <Reveal>
     <section
       id="achievements"
       className="py-20 bg-dark text-soft px-6 md:px-12 lg:px-24"
@@ -53,5 +55,6 @@ export default function Achievements() {
 
       </div>
     </section>
+    </Reveal>
   );
 }
