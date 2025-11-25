@@ -46,9 +46,11 @@ export default function About() {
             <li>• Laravel</li>
           </ul>
 
-          <button className="mt-6 bg-accent text-dark px-6 py-2 rounded-lg font-bold hover:opacity-80 transition">
+        <a href="/cv/horlacore-cv.pdf" download="HorlaCore-CV.pdf">
+          <button  className="mt-6 bg-accent text-dark px-6 py-2 rounded-lg font-bold hover:opacity-80 transition">
             Download CV
           </button>
+          </a>
         </div>
       </div>
     </section>

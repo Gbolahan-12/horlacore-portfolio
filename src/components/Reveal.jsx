@@ -5,8 +5,8 @@ import { useEffect } from "react";
 export default function Reveal({ children, delay = 0 }) {
   const controls = useAnimation();
   const [ref, inView] = useInView({
-    triggerOnce: true, // animate only first time
-    threshold: 0.2, // animate when 20% visible
+    triggerOnce: true,
+    threshold: 0.2,
   });
 
   useEffect(() => {

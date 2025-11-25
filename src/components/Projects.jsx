@@ -30,7 +30,7 @@ export default function Projects() {
   ];
 
   return (
-    <Reveal delay={0.3}>
+    <Reveal delay={0.2}>
     <section id="projects" className="bg-dark text-soft py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto">
         
