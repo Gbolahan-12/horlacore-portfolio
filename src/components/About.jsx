@@ -26,8 +26,8 @@ export default function About() {
 
           <p className="text-soft text-lg leading-relaxed mb-6">
             Hi, I’m <span className="text-accent font-semibold">HorlaCore</span>, 
-            a passionate frontend developer who enjoys building beautiful user
-            interfaces with modern tools like React and TailwindCSS. I focus on
+            a passionate full-stack developer who enjoys building beautiful user
+            interfaces with modern tools like React and TailwindCSS and many more. I focus on
             creating fast, clean, and interactive web experiences.
           </p>
 

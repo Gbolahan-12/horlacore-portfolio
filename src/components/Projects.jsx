@@ -15,7 +15,7 @@ export default function Projects() {
     },
     {
       title: "E-Commerce Selliing Raw Foods",
-      description: "A clean, animated portfolio built with React and TailwindCSS.",
+      description: "A clean, animated e-commerce built with React and TailwindCSS.",
       image: HavestaPics,
       demo: "https://havesta.com/",
       github: "#"
