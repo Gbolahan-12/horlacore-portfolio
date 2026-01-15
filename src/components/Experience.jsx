@@ -51,7 +51,7 @@ export default function Experience() {
               {/* Dot */}
               <div className="absolute -left-4 top-1 w-3 h-3 bg-accent rounded-full"></div>
 
-              <p className="text-accent font-bold text-lg">{item.year}</p>
+              <p data-testkey={`check-${index}`} className="text-accent font-bold text-lg">{index}, {item.year}</p>
 
               <h3 className="text-xl font-semibold text-white mt-2">
                 {item.title}

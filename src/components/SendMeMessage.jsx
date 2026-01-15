@@ -3,11 +3,14 @@ import { useForm, ValidationError } from "@formspree/react";
 
 export default function SendMeMessage() {
   const [state, handleSubmit] = useForm("xrbjpwew");
+  const stateChange = {
+    name: "",
+    email: "",
+    message: "",
+  }
 
   // State for showing the success alert
   const [showAlert, setShowAlert] = useState(false);
-
-  // When form is successfully submitted
   useEffect(() => {
     if (state.succeeded) {
       setShowAlert(true);
@@ -49,6 +52,13 @@ export default function SendMeMessage() {
             required
             name="email"
             placeholder="Your Email"
+            className="w-full p-3 rounded bg-dark text-soft outline-none border border-accent/20 focus:border-accent"
+          />
+          <input
+            type="number"
+            required
+            name="number"
+            placeholder="Your Phone Number"
             className="w-full p-3 rounded bg-dark text-soft outline-none border border-accent/20 focus:border-accent"
           />
 

@@ -10,7 +10,7 @@ export default function Navbar() {
     <header className="bg-dark text-soft fixed w-full z-50 shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
 
-        <div className="text-2xl font-bold text-accent">HorlaCore</div>
+        <div data-testid="cypress-title" className="text-2xl font-bold text-accent">HorlaCore</div>
 
         <nav className="hidden md:flex space-x-6 font-medium">
           <a href="/" className="hover:text-accent transition">Home</a>

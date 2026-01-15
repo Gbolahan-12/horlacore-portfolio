@@ -37,7 +37,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-5">
             <a
-              href="https://wa.me/2349155242973?text=Hi,HorlaCore"
+              href="https://wa.me/2349155242973?text=Hi, HorlaCore"
               target="_blank"
               className="hover:text-accent transition"
             >
